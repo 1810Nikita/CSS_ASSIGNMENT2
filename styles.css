@@ -1,0 +1,108 @@
+* {
+  background-color: #D8DA3D; }
+
+/* mixin code for paragraph, header */
+/* mixin code for div */
+/* mixin code for li items in nav bar */
+/* mixin code for subscript used for 3 in w3schools */
+/* mixin code for border*/
+/* declaration of variable*/
+h1 {
+  color: #80007E;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+p {
+  color: #80007E;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+/* nesting property used for navbar */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  width: 200px;
+  position: absolute;
+  height: 100%; }
+  nav ul li.block1 {
+    width: 180px;
+    height: 30px;
+    padding-left: 5px;
+    background: white;
+    margin-bottom: 2rem;
+    color: #80007E;
+    border-right: 1em solid #FF7F00; }
+    nav ul li.block1 sub {
+      background: white;
+      color: #80007E;
+      font-size: 18px; }
+  nav ul li.block2 {
+    width: 180px;
+    height: 30px;
+    padding-left: 5px;
+    background: white;
+    margin-bottom: 2rem;
+    color: #80007E;
+    border-right: 1em solid #0000FF; }
+    nav ul li.block2 sub {
+      background: white;
+      color: #80007E;
+      font-size: 18px; }
+
+/* heading style */
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+ SunSans-Regular, sans-serif; }
+
+/*  styling dotted line as seprater before address */
+hr.new1 {
+  margin-left: 20%;
+  margin-top: 60px;
+  border-top: 2px dotted #80007E; }
+
+div {
+  margin-left: 20%;
+  margin-top: 0%;
+  height: 100%;
+  margin-right: 20%; }
+
+#secondcontent {
+  margin-right: 15%; }
+
+#left {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  border-width: 2px;
+  border-style: dashed;
+  text-align: left;
+  color: black; }
+
+#right {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  border-width: 2px;
+  border-style: dashed;
+  text-align: right;
+  color: black;
+  border-color: red; }
+
+#center {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  border-width: 2px;
+  border-style: dotted;
+  text-align: center;
+  color: black; }
+
+address {
+  color: #80007E; }
