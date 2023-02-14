@@ -114,6 +114,11 @@ div{
   color: black;
 }
 
+
+#left:hover{
+  transform: translateY(-10px);
+}
+
 #right {
   @include commonCodeForBorder;
   border-style: dashed;
