@@ -91,6 +91,9 @@ div {
   text-align: right;
   color: black;
   border-color: red; }
+#left:hover{
+  transform: translateY(-10px);
+}
 
 #center {
   padding-top: 5px;
